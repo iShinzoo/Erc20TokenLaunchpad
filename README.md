@@ -77,45 +77,15 @@ npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/TokenLaunchpad.js
 ```
 
-## Development Commands
-
-```shell
-# Get help and available commands
-npx hardhat help
-
-# Run tests
-npx hardhat test
-
-# Run tests with gas reporting
-REPORT_GAS=true npx hardhat test
-
-# Start local blockchain node
-npx hardhat node
-
-# Deploy contracts using Ignition
-npx hardhat ignition deploy ./ignition/modules/TokenLaunchpad.js
-```
-
-## Testing
-
-The project includes comprehensive test suites for all major functionality:
-- Token creation and deployment
-- Buying and selling mechanisms
-- Administrative functions
-- Access control
-- Error handling
-
-Run the test suite with:
-```shell
-npx hardhat test
-```
-
 ## Security Features
 
 - Ownership controls using OpenZeppelin's Ownable
 - Safe math operations (built into Solidity ^0.8.0)
 - Input validation and error handling
 - Access control for administrative functions
+
+## 📞 Contact
+- X: [@i_krsna4](https://x.com/i_krsna4).
 
 ## License
 
